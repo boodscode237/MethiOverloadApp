@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethidOverload", "MethidOverload\MethidOverload.csproj", "{CEC34D62-F3A5-4996-B116-BCBA35468914}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEC34D62-F3A5-4996-B116-BCBA35468914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEC34D62-F3A5-4996-B116-BCBA35468914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEC34D62-F3A5-4996-B116-BCBA35468914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEC34D62-F3A5-4996-B116-BCBA35468914}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E427DDB3-F1AE-4B0C-BA95-A922FB1CFBD3}
+	EndGlobalSection
+EndGlobal
