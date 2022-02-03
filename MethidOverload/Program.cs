@@ -11,7 +11,7 @@ namespace MethidOverload
         static void Main(string[] args)
         {
             var person = new PersonModel("brice", "donny");
-            person.GenerateEmail("hotmail", false);
+            person.GenerateEmail(true);
             Console.WriteLine(person.Email);
             Console.ReadLine();
         }
@@ -52,14 +52,14 @@ namespace MethidOverload
 
         public void GenerateEmail(bool firstInitialMethod)
         {
-            GenerateEmail("gmail.net", false);
+            GenerateEmail("gmail.net", firstInitialMethod);
         }
 
         public void GenerateEmail(string domain, bool firstInitialMethod)
         {
             if (firstInitialMethod == true)
             {
-                Email = $"{FirstName.Substring(0, 1)}_{LastName}@{domain}.com";
+                Email = $"{FirstName.Substring(0, 1)}_{LastName}@{domain}";
             }
             else
             {
